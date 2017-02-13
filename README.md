@@ -6,18 +6,22 @@ simple project with Node.js, the Express framework, and MongoDB, focusing on the
     ```
     npm install
     ```
-*  In a directory config in the root of your project, create a db.js file
+*  In a directory config in the root of your project, create a db.js file 
+
     ```
     mkdir config 
     cd config
     touch db.js
-    ```
-    Inside, add the URL:
+    ``` 
+
+    Inside, add the URL: 
+
     ```
     module.exports = {
       url : //YOUR MONGODB URL HERE
     };
-    ```
+    ``` 
+    
 *  Start server
     ```
     npm run dev
