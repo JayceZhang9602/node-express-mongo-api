@@ -1,0 +1,19 @@
+{
+  "name": "node-express-mongo-api",
+  "version": "0.0.1",
+  "description": "REST APIs and CRUD operations with Node.js, the Express framework, and MongoDB",
+  "main": "server.js",
+  "repository": "https://github.com/JayceZhang9602/node-express-mongo-api.git",
+  "author": "Jayce Zhang <jaycezhang9602@outlook.com>",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.16.1",
+    "express": "^4.14.1",
+    "mongodb": "^2.2.22"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
